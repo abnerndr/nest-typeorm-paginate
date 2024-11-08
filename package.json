@@ -1,0 +1,28 @@
+{
+  "name": "nest-typeorm-paginate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "abnerndr.dev@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "version": "yarn version --deferred",
+    "build": "npx rimraf dist && tsc && cpx 'src/**/*.ts' dist"
+  },
+  "keywords": [
+    "nestjs",
+    "typeorm",
+    "paginate",
+    "typescript"
+  ],
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "rimraf": "^6.0.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.3"
+  }
+}
